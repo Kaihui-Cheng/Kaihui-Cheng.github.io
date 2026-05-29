@@ -40,6 +40,24 @@ a {
 }
 
 
+/* inline link icons */
+.icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: -2px;
+  margin-right: 6px;
+  fill: currentColor;
+}
+
+/* section-title icons */
+.title-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: -3px;
+  margin-right: 8px;
+  fill: currentColor;
+}
+
 .email-list {
   text-align: center;
   margin: 20px 0; /* 上下间距更宽 */
