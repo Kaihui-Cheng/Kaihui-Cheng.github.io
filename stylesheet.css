@@ -111,6 +111,23 @@ a {
   color: #1a1a1a; /* 深灰色，更现代化的风格 */
 }
 
+/* Circular bio photo: replace images/profile.png to update your portrait. */
+.profile-photo-link {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .section-title {
   font-size: 22px;
   font-weight: bold;
